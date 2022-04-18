@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Sarala", sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #63d691;
+}
+
+.card-meio {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insira-card {
+  width: 40%;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: white;
+  border-radius: 10px;
+}
+
+.insira-card > h1 {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #202124;
+  font-weight: 800;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area-numero > input {
+  border: none;
+  outline: #514a42;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #514a42;
+}
+
+/* .area-numero > button {
+  width: 100%;
+  border: none;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #62d68f;
+  letter-spacing: 6px;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+} */
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #63d691;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #58bb83;
+}
+
+button:active {
+  background-color: #58bb83;
+  transform: translateY(2px);
+}
