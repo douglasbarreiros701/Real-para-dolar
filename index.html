@@ -3,28 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Conversor de real</title>
+    <title>Real para dolar</title>
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
       href="/style/style.css"
     />
-    <script src="scrypt.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="simbolo-do-dolar.png" />
   </head>
   <body>
     <div class="container">
       <div class="card-meio">
         <div class="insira-card">
-          <h1>Real para centavo</h1>
+          <h1>Real para dolar</h1>
           <div class="area-numero">
             <label for="reais">Reais</label>
-            <input type="number" name="reais" />
+            <input type="number" name="reais" id="numero-calc" />
 
-            <button class="calcular">CALCULAR</button>
+            <button class="calcular" onmouseup="calcular()" id="botao">
+              CALCULAR
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <script src="scrypt.js"></script>
   </body>
 </html>
