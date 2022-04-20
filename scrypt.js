@@ -5,5 +5,5 @@ function calcular() {
   let numero = inputNumero.value;
 
   let resultado = numero * 4.67;
-  alert("Você tem " + parseFloat(resultado) + " reais");
+  alert("Você tem (" + parseFloat(resultado) + ") Reais");
 }
